@@ -67,6 +67,7 @@ header {
 }
 
 button {
+    cursor: pointer;
     background-color: #FE5303;
     padding: 1em;
     font-weight: 600;
