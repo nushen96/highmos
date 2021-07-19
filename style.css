@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1,h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3,h4 {
+    text-transform: uppercase;
+    color: #BDBDBD;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 75%;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    color: #fff;
+    background-image: url("./images/image-1.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 24px 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #FE5303;
+    padding: 1em;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 3.25em;
+    -webkit-border-radius: 3.25em;
+    -moz-border-radius: 3.25em;
+    -ms-border-radius: 3.25em;
+    -o-border-radius: 3.25em;
+}
+
+.header-button-text {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.headline {
+    font-size: 400%;
+    max-width: 50%;
+    margin-bottom: 24px;
+}
+
+.adventure-line {
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.adventure-line span {
+    margin-right: 24px;
+}
+
+.adventure-line .play-button {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-container button {
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.form-title {
+    color: #bdbdbd;
+}
+
+.booking-form {
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    margin-right: 12px;
+}
+
+.input-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 24px;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+
+.booking-form .input-container:first-child,
+.booking-form .input-container:last-child {
+    border: none;
+}
+
+.input-container input,
+.input-container select {
+    flex: 1;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    outline: none;
+}
