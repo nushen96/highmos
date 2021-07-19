@@ -14,16 +14,26 @@ body {
 
 h1,h2 {
     font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 300%;
 }
 
 h3,h4 {
     text-transform: uppercase;
     color: #BDBDBD;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 h3 {
     font-size: 75%;
+}
+
+section {
+    padding-top: 100px;
 }
 
 .row {
@@ -118,6 +128,7 @@ button {
 
 .form-title {
     color: #bdbdbd;
+    margin-bottom: 12px;
 }
 
 .booking-form {
@@ -154,4 +165,61 @@ button {
     font-family: inherit;
     font-weight: 600;
     outline: none;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4rem;
+}
+
+.about-image-container img {
+    border-radius: 14px;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.about-content .about-paragraph-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-paragraph {
+    color: #828282;
+    margin: 14px 0;
+}
+
+.accomodations-title-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accomodations-title-line a {
+    text-decoration: none;
+    color:#FE5303;
+}
+
+.accomodations-content {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(3, auto);
+    gap: 4rem;
+}
+
+.accomodations-content .accomodations-image-container:first-child {
+    grid-column: 1 / span 2;
+}
+
+.accomodations-content .accomodations-image-container img {
+    border-radius: 14px;
+    width: 100%;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
 }
